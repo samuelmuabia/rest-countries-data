@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#search-country {
+    width: 100%;
+}
+
+#country-data .card {
+    height: 100%;
+}
+
+#country-data .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#more-details-modal .modal-body {
+    padding: 1rem;
+}
+
+#more-details-modal .modal-body img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    #country-data .card {
+        height: auto;
+    }
+
+    #country-data .card-img-top {
+        height: auto;
+    }
+
+    #more-details-modal .modal-body img {
+        height: 200px;
+        object-fit: cover;
+    }
+}
